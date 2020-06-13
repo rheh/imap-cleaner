@@ -1,6 +1,6 @@
 {
   "name": "imap-cleaner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Command-line utility for remove old emails from an email inbox over imap.",
   "main": "index.js",
   "scripts": {
