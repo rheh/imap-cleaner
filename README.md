@@ -4,7 +4,13 @@
 NodeJS command line utility for removing old emails from an IMAP server.
 
 
-Usage:
+## Installing
+
+`npm install imap-cleaner`
+
+## Running
+
+Usage: node index.js --deleteOlderThan <num> --max <num>
 
 1) Update the config files with your IMAP server details (See ./config/connectio.js)
 
@@ -23,11 +29,6 @@ Usage:
 ```
 node index.js --deleteOlderThan 400 --max 20
 ```
-
-
-## Installing
-
-`npm install imap-cleaner`
 
 ## Contributors
 
