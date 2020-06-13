@@ -23,3 +23,16 @@ Usage:
 ```
 node index.js --deleteOlderThan 400 --max 20
 ```
+
+
+## Installing
+
+`npm install imap-cleaner`
+
+## Contributors
+
+One-man-band at the moment.  Contact me at twitter on @rayhammond, or, via my blog here http://geeksretreat.wordpress.com if you are interest in getting involved.
+
+## License
+
+MIT
