@@ -1,6 +1,8 @@
 # imap-cleaner
 NodeJS command line utility for removing old emails from an IMAP server.
 
+![Node.js Package](https://github.com/rheh/imap-cleaner/workflows/Node.js%20Package/badge.svg)
+
 Usage:
 
 1) Update the config files with your IMAP server details (See ./config/connectio.js)
