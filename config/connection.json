@@ -1,0 +1,7 @@
+{
+  "user": "<User name>",
+  "password": "<Password>",
+  "host": "<IMAP Server address>",
+  "port": 993,
+  "tls": true
+}

@@ -1,0 +1,30 @@
+{
+  "name": "imap-cleaner",
+  "version": "1.0.0",
+  "description": "Command-line utility for remove old emails from an email inbox over imap.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint --fix -c .eslintrc.json src/**/*.js"
+  },
+  "keywords": [
+    "IMAP",
+    "clean-ip",
+    "remove",
+    "email"
+  ],
+  "author": "Ray Hammond",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.0",
+    "imap-simple": "^4.3.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "ora": "^4.0.2",
+    "prompts": "^2.2.1",
+    "yargs": "^14.2.0"
+  },
+  "devDependencies": {
+    "eslint-config-google": "^0.14.0"
+  }
+}
