@@ -17,5 +17,6 @@ Usage:
 
 2) Run the command, only consider the ones with a date/time older than 400 days.  Limit the remove to 20 (for speed and safety)
 
-``node index.js --deleteOlderThan 400 --max 20
-
+```
+node index.js --deleteOlderThan 400 --max 20
+```
