@@ -3,7 +3,6 @@
 
 NodeJS command line utility for removing old emails from an IMAP server.
 
-
 ## Installing
 
 `npm install -g imap-cleaner`

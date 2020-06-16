@@ -1,6 +1,6 @@
 {
   "name": "imap-cleaner",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Command-line utility for remove old emails from an email inbox over imap.",
   "main": "imap-cleaner.js",
   "bin": {
@@ -17,7 +17,8 @@
     "remove",
     "email"
   ],
-  "author": "Ray Hammond",
+  "repository": "https://github.com/rheh/imap-cleaner",
+  "author": "Ray Hammond <ray.hammond77@gmail.com> (https://geeksretreat.wordpress.com/)",
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.7.0",
