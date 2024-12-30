@@ -1,5 +1,4 @@
 /* eslint-disable require-jsdoc */
-const Promise = require('bluebird');
 const Imap = require('imap');
 const {get} = require('lodash');
 const {isObject, isString} = require('lodash');
