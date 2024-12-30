@@ -1,4 +1,3 @@
-const Promise = require('bluebird');
 const {isObject, get} = require('lodash');
 
 module.exports = function closeConnection(updateConsole, payload) {

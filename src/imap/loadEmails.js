@@ -1,5 +1,4 @@
 const {isObject, map, get} = require('lodash');
-const Promise = require('bluebird');
 const getSingleEmail = require('./getSingleEmail');
 const logger = require('../utilities/logger');
 

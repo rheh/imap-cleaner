@@ -1,7 +1,6 @@
 const {map, isArray, isObject, get} = require('lodash');
 const removeEmail = require('./removeEmail');
 const logger = require('../utilities/logger');
-const Promise = require('bluebird');
 
 module.exports = async function removeEmails(updateConsole, payload) {
   const emailsToDelete = get(payload, 'emailsToDelete');

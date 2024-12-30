@@ -1,4 +1,3 @@
-const Promise = require('bluebird');
 const moment = require('moment');
 
 module.exports = function searchInbox(days, maxSize, updateConsole, payload) {

@@ -1,5 +1,4 @@
 const Imap = require('imap');
-const Promise = require('bluebird');
 const logger = require('../utilities/logger');
 const {isObject, get} = require('lodash');
 
